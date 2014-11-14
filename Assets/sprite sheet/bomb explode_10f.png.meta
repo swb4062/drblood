@@ -10,6 +10,8 @@ TextureImporter:
     21300010: bomb explode_10f_5
     21300012: bomb explode_10f_6
     21300014: bomb explode_10f_7
+    21300016: bomb explode_10f_8
+    21300018: bomb explode_10f_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +31,7 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -2
+  textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
     filterMode: -1
@@ -55,79 +57,99 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1015
-        width: 1035
-        height: 1015
+        y: 804
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_1
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 1015
-        width: 1035
-        height: 1015
+        x: 819
+        y: 804
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_2
       rect:
         serializedVersion: 2
-        x: 2070
-        y: 1015
-        width: 1035
-        height: 1015
+        x: 1638
+        y: 804
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_3
       rect:
         serializedVersion: 2
-        x: 3105
-        y: 1015
-        width: 1035
-        height: 1015
+        x: 2457
+        y: 804
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1035
-        height: 1015
+        x: 3276
+        y: 804
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_5
       rect:
         serializedVersion: 2
-        x: 1035
+        x: 0
         y: 0
-        width: 1035
-        height: 1015
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_6
       rect:
         serializedVersion: 2
-        x: 2070
+        x: 819
         y: 0
-        width: 1035
-        height: 1015
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bomb explode_10f_7
       rect:
         serializedVersion: 2
-        x: 3105
+        x: 1638
         y: 0
-        width: 1035
-        height: 1015
+        width: 819
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb explode_10f_8
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 0
+        width: 819
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb explode_10f_9
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 819
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
