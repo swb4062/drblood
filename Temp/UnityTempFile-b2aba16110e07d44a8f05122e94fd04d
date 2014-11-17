@@ -1,0 +1,123 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_4_5_4
+-define:UNITY_4_5
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+"Assets/Sample Assets/2D/Scripts/Camera2DFollow.cs"
+"Assets/Sample Assets/2D/Scripts/CameraFollow.cs"
+"Assets/Sample Assets/2D/Scripts/Platformer2DUserControl.cs"
+"Assets/Sample Assets/2D/Scripts/Platformer2DUserControlScene42.cs"
+"Assets/Sample Assets/2D/Scripts/PlatformerCharacter2D.cs"
+"Assets/Sample Assets/2D/Scripts/Restarter.cs"
+"Assets/Sample Assets/Cameras/Scripts/AbstractTargetFollower.cs"
+"Assets/Sample Assets/Cameras/Scripts/AutoCam.cs"
+"Assets/Sample Assets/Cameras/Scripts/FreeLookCam.cs"
+"Assets/Sample Assets/Cameras/Scripts/HandHeldCam.cs"
+"Assets/Sample Assets/Cameras/Scripts/LookatTarget.cs"
+"Assets/Sample Assets/Cameras/Scripts/PivotBasedCameraRig.cs"
+"Assets/Sample Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs"
+"Assets/Sample Assets/Cameras/Scripts/TargetFieldOfView.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/AbstractButton.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/AxisTouchButton.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/Button.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/ButtonDownTextureChange.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/ButtonFactory.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/CrossPlatformInput.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/Joystick.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/JoystickAbstract.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/MobileControlRig.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TiltInput.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TouchJoystick.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TouchPad.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TouchPadPositional.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TouchPadRelativePositional.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/TouchPadSwipe.cs"
+"Assets/Sample Assets/Cross Platform Input/Scripts/VirtualInput.cs"
+Assets/scripts/GunShoot.cs
+Assets/scripts/HealthScript.cs
+Assets/scripts/ShotScript.cs
+Assets/scripts/StartMenu.cs
+Assets/scripts/WeaponScript.cs
+Assets/scripts/cheat.cs
+Assets/scripts/controls.cs
+Assets/scripts/dblood_ifshot_fall.cs
+Assets/scripts/loadGameInfo.cs
+Assets/scripts/loadMainMenu.cs
+Assets/scripts/loadScenes/past/loadScene0_cave_past1.cs
+Assets/scripts/loadScenes/past/loadScene0left_past1.cs
+Assets/scripts/loadScenes/planet1/loadScene1_planet1.cs
+Assets/scripts/loadScenes/present/loadScene0left.cs
+Assets/scripts/loadScenes/present/loadScene1.cs
+Assets/scripts/loadScenes/present/loadScene1left.cs
+Assets/scripts/loadScenes/present/loadScene1right.cs
+Assets/scripts/loadScenes/present/loadScene2.cs
+Assets/scripts/loadScenes/present/loadScene2left.cs
+Assets/scripts/loadScenes/present/loadScene2right.cs
+Assets/scripts/loadScenes/present/loadScene3.cs
+Assets/scripts/loadScenes/present/loadScene4.cs
+Assets/scripts/loadScenes/present/loadScene41.cs
+Assets/scripts/loadScenes/present/loadScene41right.cs
+Assets/scripts/loadScenes/present/loadScene42.cs
+Assets/scripts/loadScenes/present/loadScene42from43.cs
+Assets/scripts/loadScenes/present/loadScene42left.cs
+Assets/scripts/loadScenes/present/loadScene42right.cs
+Assets/scripts/loadScenes/present/loadScene43.cs
+Assets/scripts/loadScenes/present/loadScene4left.cs
+Assets/scripts/loadScenes/present/loadScene4right.cs
+Assets/scripts/loadScenes/present/loadScene5.cs
+Assets/scripts/loadScenes/present/loadScene5left.cs
+Assets/scripts/loadScenes/present/loadScene5right.cs
+Assets/scripts/loadScenes/present/loadScene6.cs
+Assets/scripts/loadScenes/present/loadScene61.cs
+Assets/scripts/loadScenes/present/loadScene61left.cs
+Assets/scripts/loadScenes/present/loadScene61right.cs
+Assets/scripts/loadScenes/present/loadScene62left.cs
+Assets/scripts/loadScenes/present/loadScene6left.cs
+Assets/scripts/loadScenes/present/loadScene6right.cs
+Assets/scripts/loadScenes/present/loadScene7.cs
+Assets/scripts/moveScript.cs
+Assets/scripts/quit.cs
+Assets/scripts/showCursor.cs
+Assets/scripts/startGame.cs
+Assets/scripts/timeMachine.cs
+Assets/scripts/timeMachine_planet1.cs
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

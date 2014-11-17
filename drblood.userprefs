@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\JetPack.cs">
+    <Files>
+      <File FileName="Assets\scripts\JetPack.cs" Line="6" Column="41" />
+      <File FileName="..\Trigger-Happy Astronaut!\Assets\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" Line="7" Column="23" />
+      <File FileName="Assets\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" Line="49" Column="1" />
+      <File FileName="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="30" Column="28" />
+      <File FileName="..\Trigger-Happy Astronaut!\Assets\2D Assets Pack\Scripts\2D Platformer\Weapon.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
