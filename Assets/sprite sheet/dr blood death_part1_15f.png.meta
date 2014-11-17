@@ -1,23 +1,22 @@
 fileFormatVersion: 2
-guid: 7724b777588c1644590eddcfd9542ee6
+guid: 0e39cb986f277bd488af0e83e657dca5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: jetpack animation_15f
-    21300002: jetpack animation_15f_0
-    21300004: jetpack animation_15f_1
-    21300006: jetpack animation_15f_2
-    21300008: jetpack animation_15f_3
-    21300010: jetpack animation_15f_4
-    21300012: jetpack animation_15f_5
-    21300014: jetpack animation_15f_6
-    21300016: jetpack animation_15f_7
-    21300018: jetpack animation_15f_8
-    21300020: jetpack animation_15f_9
-    21300022: jetpack animation_15f_10
-    21300024: jetpack animation_15f_11
-    21300026: jetpack animation_15f_12
-    21300028: jetpack animation_15f_13
-    21300030: jetpack animation_15f_14
+    21300000: dr blood death_part1_15f_0
+    21300002: dr blood death_part1_15f_1
+    21300004: dr blood death_part1_15f_2
+    21300006: dr blood death_part1_15f_3
+    21300008: dr blood death_part1_15f_4
+    21300010: dr blood death_part1_15f_5
+    21300012: dr blood death_part1_15f_6
+    21300014: dr blood death_part1_15f_7
+    21300016: dr blood death_part1_15f_8
+    21300018: dr blood death_part1_15f_9
+    21300020: dr blood death_part1_15f_10
+    21300022: dr blood death_part1_15f_11
+    21300024: dr blood death_part1_15f_12
+    21300026: dr blood death_part1_15f_13
+    21300028: dr blood death_part1_15f_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,153 +58,153 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: jetpack animation_15f_0
+    - name: dr blood death_part1_15f_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1024
-        width: 391
-        height: 512
+        y: 1479
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_1
+    - name: dr blood death_part1_15f_1
       rect:
         serializedVersion: 2
-        x: 391
-        y: 1024
-        width: 391
-        height: 512
+        x: 700
+        y: 1479
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_2
+    - name: dr blood death_part1_15f_2
       rect:
         serializedVersion: 2
-        x: 782
-        y: 1024
-        width: 391
-        height: 512
+        x: 1400
+        y: 1479
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_3
+    - name: dr blood death_part1_15f_3
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 1024
-        width: 391
-        height: 512
+        x: 2100
+        y: 1479
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_4
+    - name: dr blood death_part1_15f_4
       rect:
         serializedVersion: 2
-        x: 1564
-        y: 1024
-        width: 391
-        height: 512
+        x: 2800
+        y: 1479
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 391
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_6
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 512
-        width: 391
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_7
-      rect:
-        serializedVersion: 2
-        x: 782
-        y: 512
-        width: 391
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_8
-      rect:
-        serializedVersion: 2
-        x: 1173
-        y: 512
-        width: 391
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_9
-      rect:
-        serializedVersion: 2
-        x: 1564
-        y: 512
-        width: 391
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_10
+    - name: dr blood death_part1_15f_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 391
-        height: 512
+        y: 740
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_11
+    - name: dr blood death_part1_15f_6
       rect:
         serializedVersion: 2
-        x: 391
-        y: 0
-        width: 391
-        height: 512
+        x: 700
+        y: 740
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_12
+    - name: dr blood death_part1_15f_7
       rect:
         serializedVersion: 2
-        x: 782
-        y: 0
-        width: 391
-        height: 512
+        x: 1400
+        y: 740
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_13
+    - name: dr blood death_part1_15f_8
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 0
-        width: 391
-        height: 512
+        x: 2100
+        y: 740
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jetpack animation_15f_14
+    - name: dr blood death_part1_15f_9
       rect:
         serializedVersion: 2
-        x: 1564
-        y: 0
-        width: 391
-        height: 512
+        x: 2800
+        y: 740
+        width: 700
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dr blood death_part1_15f_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 700
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dr blood death_part1_15f_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1
+        width: 700
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dr blood death_part1_15f_12
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1
+        width: 700
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dr blood death_part1_15f_13
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1
+        width: 700
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dr blood death_part1_15f_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1
+        width: 700
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

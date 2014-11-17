@@ -27,6 +27,31 @@ TextureImporter:
     21300044: db_jump_22
     21300046: db_jump_23
     21300048: db_jump_24
+    21300050: drblood_jump_25f_0
+    21300052: drblood_jump_25f_1
+    21300054: drblood_jump_25f_2
+    21300056: drblood_jump_25f_3
+    21300058: drblood_jump_25f_4
+    21300060: drblood_jump_25f_5
+    21300062: drblood_jump_25f_6
+    21300064: drblood_jump_25f_7
+    21300066: drblood_jump_25f_8
+    21300068: drblood_jump_25f_9
+    21300070: drblood_jump_25f_10
+    21300072: drblood_jump_25f_11
+    21300074: drblood_jump_25f_12
+    21300076: drblood_jump_25f_13
+    21300078: drblood_jump_25f_14
+    21300080: drblood_jump_25f_15
+    21300082: drblood_jump_25f_16
+    21300084: drblood_jump_25f_17
+    21300086: drblood_jump_25f_18
+    21300088: drblood_jump_25f_19
+    21300090: drblood_jump_25f_20
+    21300092: drblood_jump_25f_21
+    21300094: drblood_jump_25f_22
+    21300096: drblood_jump_25f_23
+    21300098: drblood_jump_25f_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -68,255 +93,255 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: db_jump_0
+    - name: drblood_jump_25f_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3511
-        width: 394
-        height: 585
+        y: 3072
+        width: 345
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_1
+    - name: drblood_jump_25f_1
       rect:
         serializedVersion: 2
-        x: 394
-        y: 3511
-        width: 394
-        height: 585
+        x: 345
+        y: 3072
+        width: 345
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_2
+    - name: drblood_jump_25f_2
       rect:
         serializedVersion: 2
-        x: 788
-        y: 3511
-        width: 394
-        height: 585
+        x: 690
+        y: 3072
+        width: 345
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_3
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 3511
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_4
+    - name: drblood_jump_25f_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 2926
-        width: 394
-        height: 585
+        y: 2560
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_5
+    - name: drblood_jump_25f_4
       rect:
         serializedVersion: 2
-        x: 394
-        y: 2926
-        width: 394
-        height: 585
+        x: 345
+        y: 2560
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_6
+    - name: drblood_jump_25f_5
       rect:
         serializedVersion: 2
-        x: 788
-        y: 2926
-        width: 394
-        height: 585
+        x: 690
+        y: 2560
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_7
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 2926
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_8
+    - name: drblood_jump_25f_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 2341
-        width: 394
-        height: 585
+        y: 2048
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_9
+    - name: drblood_jump_25f_7
       rect:
         serializedVersion: 2
-        x: 394
-        y: 2341
-        width: 394
-        height: 585
+        x: 345
+        y: 2048
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_10
+    - name: drblood_jump_25f_8
       rect:
         serializedVersion: 2
-        x: 788
-        y: 2341
-        width: 394
-        height: 585
+        x: 690
+        y: 2048
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_11
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 2341
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_12
+    - name: drblood_jump_25f_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 1756
-        width: 394
-        height: 585
+        y: 1536
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_13
+    - name: drblood_jump_25f_10
       rect:
         serializedVersion: 2
-        x: 394
-        y: 1756
-        width: 394
-        height: 585
+        x: 345
+        y: 1536
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_14
+    - name: drblood_jump_25f_11
       rect:
         serializedVersion: 2
-        x: 788
-        y: 1756
-        width: 394
-        height: 585
+        x: 690
+        y: 1536
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_15
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 1756
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_16
+    - name: drblood_jump_25f_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 1171
-        width: 394
-        height: 585
+        y: 1024
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_17
+    - name: drblood_jump_25f_13
       rect:
         serializedVersion: 2
-        x: 394
-        y: 1171
-        width: 394
-        height: 585
+        x: 345
+        y: 1024
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_18
+    - name: drblood_jump_25f_14
       rect:
         serializedVersion: 2
-        x: 788
-        y: 1171
-        width: 394
-        height: 585
+        x: 690
+        y: 1024
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_19
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 1171
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_20
+    - name: drblood_jump_25f_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 586
-        width: 394
-        height: 585
+        y: 512
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_21
+    - name: drblood_jump_25f_16
       rect:
         serializedVersion: 2
-        x: 394
-        y: 586
-        width: 394
-        height: 585
+        x: 345
+        y: 512
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_22
+    - name: drblood_jump_25f_17
       rect:
         serializedVersion: 2
-        x: 788
-        y: 586
-        width: 394
-        height: 585
+        x: 690
+        y: 512
+        width: 345
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_23
-      rect:
-        serializedVersion: 2
-        x: 1182
-        y: 586
-        width: 394
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: db_jump_24
+    - name: drblood_jump_25f_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 394
-        height: 585
+        y: 0
+        width: 345
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_19
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3072
+        width: 344
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_20
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2562
+        width: 343
+        height: 511
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_21
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2048
+        width: 343
+        height: 514
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_22
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1536
+        width: 344
+        height: 513
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_23
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1024
+        width: 344
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: drblood_jump_25f_24
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 512
+        width: 344
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
