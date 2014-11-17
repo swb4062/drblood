@@ -8,7 +8,16 @@ public class JetPack : MonoBehaviour {
 	private SpriteRenderer spriteRenderer;
 	public Sprite jetPackSprite;
 
+	public bool inInventory = false;
+
 	Collision2D coll;
+
+	void Start(){
+		if (inInventory) {
+
+			GameObject.Destroy (gameObject);
+		}
+	}
 
 	public PlatformerCharacter2D character;
 	// Use this for initialization
@@ -16,6 +25,7 @@ public class JetPack : MonoBehaviour {
 
 				if (coll.gameObject.tag == "Player") {
 
+						inInventory = true;
 						GameObject.Destroy (gameObject);
 	
 						character.rigidbody2D.gravityScale = 1;
@@ -25,6 +35,7 @@ public class JetPack : MonoBehaviour {
 						spriteRenderer = character.GetComponent<SpriteRenderer> ();
 						spriteRenderer.sprite = jetPackSprite;
 
+						character.hasJetPack = true;
 				}
 	}
 
