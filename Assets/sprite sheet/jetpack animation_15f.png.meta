@@ -50,7 +50,7 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
@@ -63,151 +63,252 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 2144
         width: 819
         height: 1072
+=======
+        y: 1024
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 819
         y: 2144
         width: 819
         height: 1072
+=======
+        x: 391
+        y: 1024
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1638
         y: 2144
         width: 819
         height: 1072
+=======
+        x: 782
+        y: 1024
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2457
         y: 2144
         width: 819
         height: 1072
+=======
+        x: 1173
+        y: 1024
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3276
         y: 2144
         width: 819
         height: 1072
+=======
+        x: 1564
+        y: 1024
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_5
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1072
         width: 819
         height: 1072
+=======
+        y: 512
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 819
         y: 1072
         width: 819
         height: 1072
+=======
+        x: 391
+        y: 512
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1638
         y: 1072
         width: 819
         height: 1072
+=======
+        x: 782
+        y: 512
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2457
         y: 1072
         width: 819
         height: 1072
+=======
+        x: 1173
+        y: 512
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3276
         y: 1072
         width: 819
         height: 1072
+=======
+        x: 1564
+        y: 512
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_10
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< HEAD
         width: 819
         height: 1072
+=======
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 819
         y: 0
         width: 819
         height: 1072
+=======
+        x: 391
+        y: 0
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1638
         y: 0
         width: 819
         height: 1072
+=======
+        x: 782
+        y: 0
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2457
         y: 0
         width: 819
         height: 1072
+=======
+        x: 1173
+        y: 0
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: jetpack animation_15f_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3276
         y: 0
         width: 819
         height: 1072
+=======
+        x: 1564
+        y: 0
+        width: 391
+        height: 512
+>>>>>>> animations
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

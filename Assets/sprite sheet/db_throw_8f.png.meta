@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 72b444e50a4ed004183e8efdb981a4f0
+=======
+guid: 8abec383acbd8124aa3e69733c0fc3f4
+>>>>>>> animations
 TextureImporter:
   fileIDToRecycleName:
     21300000: db_throw_8f_0
@@ -55,35 +59,56 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1316
         width: 778
         height: 1316
+=======
+        y: 512
+        width: 303
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: db_throw_8f_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 778
         y: 1316
         width: 778
         height: 1316
+=======
+        x: 303
+        y: 512
+        width: 303
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: db_throw_8f_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1556
         y: 1316
         width: 778
         height: 1316
+=======
+        x: 606
+        y: 512
+        width: 303
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: db_throw_8f_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2334
         y: 1316
         width: 778
@@ -128,6 +153,32 @@ TextureImporter:
         y: 0
         width: 778
         height: 1316
+=======
+        x: 0
+        y: 0
+        width: 303
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: db_throw_8f_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 303
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: db_throw_8f_5
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 303
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

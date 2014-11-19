@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 14217fc11c758744c9626fe819accc2f
+=======
+guid: 521ffd28060f01e44adb118a36dde044
+>>>>>>> animations
 TextureImporter:
   fileIDToRecycleName:
     21300000: drblood_walk_7f_0
@@ -29,7 +33,11 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
+<<<<<<< HEAD
   maxTextureSize: 4096
+=======
+  maxTextureSize: 2048
+>>>>>>> animations
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -54,29 +62,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1366
         width: 530
         height: 682
+=======
+        y: 1024
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: drblood_walk_7f_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 530
         y: 1366
         width: 530
         height: 682
+=======
+        x: 398
+        y: 1024
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: drblood_walk_7f_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1060
         y: 1366
         width: 530
         height: 682
+=======
+        x: 796
+        y: 1024
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -84,29 +112,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 684
         width: 530
         height: 682
+=======
+        y: 512
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: drblood_walk_7f_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 530
         y: 684
         width: 530
         height: 682
+=======
+        x: 398
+        y: 512
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: drblood_walk_7f_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1060
         y: 684
         width: 530
         height: 682
+=======
+        x: 796
+        y: 512
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,9 +162,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 2
         width: 530
         height: 682
+=======
+        y: 0
+        width: 398
+        height: 512
+>>>>>>> animations
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
