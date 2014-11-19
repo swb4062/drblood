@@ -1044,6 +1044,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4294966783
+  isAlive: 1
+  hasJetPack: 0
 --- !u!50 &1257583429
 Rigidbody2D:
   m_ObjectHideFlags: 0
