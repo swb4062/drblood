@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{BEFA6D9A-A02D-BFBC-7D73-D98679AB4E45}</ProjectGuid>
+	<ProjectGuid>{2B4445E8-71A9-6905-F0A2-D130D0B91D96}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -80,6 +80,7 @@
      <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\scripts\GunShoot.cs" />
      <Compile Include="Assets\scripts\HealthScript.cs" />
+     <Compile Include="Assets\scripts\JetPack.cs" />
      <Compile Include="Assets\scripts\ShotScript.cs" />
      <Compile Include="Assets\scripts\StartMenu.cs" />
      <Compile Include="Assets\scripts\WeaponScript.cs" />
