@@ -77,49 +77,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3414
-        width: 646
-        height: 682
+        y: 3245
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_1
       rect:
         serializedVersion: 2
-        x: 646
-        y: 3414
-        width: 646
-        height: 682
+        x: 614
+        y: 3245
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_2
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 3414
-        width: 646
-        height: 682
+        x: 1228
+        y: 3245
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_3
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 3414
-        width: 646
-        height: 682
+        x: 1842
+        y: 3245
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_4
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 3414
-        width: 646
-        height: 682
+        x: 2456
+        y: 3245
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,49 +127,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2732
-        width: 646
-        height: 682
+        y: 2597
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_6
       rect:
         serializedVersion: 2
-        x: 646
-        y: 2732
-        width: 646
-        height: 682
+        x: 614
+        y: 2597
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_7
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 2732
-        width: 646
-        height: 682
+        x: 1228
+        y: 2597
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_8
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 2732
-        width: 646
-        height: 682
+        x: 1842
+        y: 2597
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_9
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 2732
-        width: 646
-        height: 682
+        x: 2456
+        y: 2597
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,49 +177,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2050
-        width: 646
-        height: 682
+        y: 1949
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_11
       rect:
         serializedVersion: 2
-        x: 646
-        y: 2050
-        width: 646
-        height: 682
+        x: 614
+        y: 1949
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_12
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 2050
-        width: 646
-        height: 682
+        x: 1228
+        y: 1949
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_13
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 2050
-        width: 646
-        height: 682
+        x: 1842
+        y: 1949
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_14
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 2050
-        width: 646
-        height: 682
+        x: 2456
+        y: 1949
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,49 +227,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1368
-        width: 646
-        height: 682
+        y: 1301
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_16
       rect:
         serializedVersion: 2
-        x: 646
-        y: 1368
-        width: 646
-        height: 682
+        x: 614
+        y: 1301
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_17
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 1368
-        width: 646
-        height: 682
+        x: 1228
+        y: 1301
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_18
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 1368
-        width: 646
-        height: 682
+        x: 1842
+        y: 1301
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_19
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 1368
-        width: 646
-        height: 682
+        x: 2456
+        y: 1301
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,49 +277,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 686
-        width: 646
-        height: 682
+        y: 653
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_21
       rect:
         serializedVersion: 2
-        x: 646
-        y: 686
-        width: 646
-        height: 682
+        x: 614
+        y: 653
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_22
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 686
-        width: 646
-        height: 682
+        x: 1228
+        y: 653
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_23
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 686
-        width: 646
-        height: 682
+        x: 1842
+        y: 653
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_24
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 686
-        width: 646
-        height: 682
+        x: 2456
+        y: 653
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,49 +327,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 646
-        height: 682
+        y: 5
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_26
       rect:
         serializedVersion: 2
-        x: 646
-        y: 4
-        width: 646
-        height: 682
+        x: 614
+        y: 5
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_27
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 4
-        width: 646
-        height: 682
+        x: 1228
+        y: 5
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_28
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 4
-        width: 646
-        height: 682
+        x: 1842
+        y: 5
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: dr blood death_30f_29
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 4
-        width: 646
-        height: 682
+        x: 2456
+        y: 5
+        width: 614
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
