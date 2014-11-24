@@ -9,7 +9,7 @@ public class ShotScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		Destroy (gameObject, 20);
+		Destroy (gameObject, 2.0f);
 	}
 
 }

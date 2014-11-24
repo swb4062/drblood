@@ -3,9 +3,20 @@ using System.Collections;
 
 public class loadScene41 : MonoBehaviour {
 
+	private GameObject player;
+	private PlatformerCharacter2D character;
+
+	void Start(){
+		
+		player = GameObject.Find ("Player 1");
+		
+		character = player.GetComponent<PlatformerCharacter2D> ();
+		
+	}
+
 	void Update()
 	{
-		if(Input.GetKeyUp("w"))
+		if(Input.GetKeyUp("w") && character.isAlive)
 		{
 			Application.LoadLevel("scene41left");
 		}

@@ -26,19 +26,7 @@ public class CrossPlatformInitialize {
 	{
 
 		SetEnabled("MOBILE_INPUT",true,true);
-		switch (EditorUserBuildSettings.activeBuildTarget)
-		{
-			case BuildTarget.Android:
-			case BuildTarget.iPhone:
-			case BuildTarget.WP8Player:
-			case BuildTarget.BB10:
-			EditorUtility.DisplayDialog("Mobile Input","You have enabled Mobile Input. You'll need to use the Unity Remote app on a connected device to control your game in the Editor.","OK");
-			break;
 
-		default:
-			EditorUtility.DisplayDialog("Mobile Input","You have enabled Mobile Input, but you have a non-mobile build target selected in your build settings. The mobile control rigs won't be active or visible on-screen until you switch the build target to a mobile platform.","OK");
-			break; 
-		}
 	}
 
 	[MenuItem("Mobile Input/Enable", true)]
@@ -52,15 +40,8 @@ public class CrossPlatformInitialize {
 	static void Disable()
 	{
 		SetEnabled("MOBILE_INPUT",false,true);
-		switch (EditorUserBuildSettings.activeBuildTarget)
-		{
-		case BuildTarget.Android:
-		case BuildTarget.iPhone:
-		case BuildTarget.WP8Player:
-		case BuildTarget.BB10:
-			EditorUtility.DisplayDialog("Mobile Input","You have disabled Mobile Input. Mobile control rigs won't be visible, and the Cross Platform Input functions will always return standalone controls.","OK");
-			break;		
-        }
+
+        
         
         
 	}
@@ -78,7 +59,7 @@ public class CrossPlatformInitialize {
 		BuildTargetGroup.Android,
 		BuildTargetGroup.iPhone,
         BuildTargetGroup.WP8,
-		BuildTargetGroup.BB10,
+
     };
     
 	static BuildTargetGroup[] mobileBuildTargetGroups = new BuildTargetGroup[]
@@ -86,7 +67,7 @@ public class CrossPlatformInitialize {
 		BuildTargetGroup.Android,
 		BuildTargetGroup.iPhone,
         BuildTargetGroup.WP8,
-		BuildTargetGroup.BB10,
+
     };
     
 	static void SetEnabled(string defineName, bool enable, bool mobile)

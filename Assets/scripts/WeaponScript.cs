@@ -5,6 +5,7 @@
 /// </summary>
 public class WeaponScript : MonoBehaviour
 {
+
 	//--------------------------------
 	// 1 - Designer variables
 	//--------------------------------
@@ -18,7 +19,9 @@ public class WeaponScript : MonoBehaviour
 	/// Cooldown in seconds between two shots
 	/// </summary>
 	public float shootingRate = 0.25f;
-	
+
+	private PlatformerCharacter2D character;
+
 	//--------------------------------
 	// 2 - Cooldown
 	//--------------------------------
@@ -27,6 +30,7 @@ public class WeaponScript : MonoBehaviour
 	
 	void Start()
 	{
+		character = GetComponentInParent<PlatformerCharacter2D> ();
 		shootCooldown = 0f;
 	}
 	
@@ -36,6 +40,8 @@ public class WeaponScript : MonoBehaviour
 		{
 			shootCooldown -= Time.deltaTime;
 		}
+
+
 	}
 	
 	//--------------------------------
@@ -50,26 +56,33 @@ public class WeaponScript : MonoBehaviour
 		if (CanAttack)
 		{
 			shootCooldown = shootingRate;
-			
-			// Create a new shot
-			var shotTransform = Instantiate(shotPrefab) as Transform;
-			
-			// Assign position
-			shotTransform.position = transform.position;
+
+			Transform clone  = (Transform) Instantiate (shotPrefab);
+
+			clone.position = transform.position;
+
+			Destroy (clone.gameObject, 2.0f);
 			
 			// The is enemy property
-			ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
+			ShotScript shot = clone.gameObject.GetComponent<ShotScript>();
+
 			if (shot != null)
 			{
 				shot.isEnemyShot = isEnemy;
 			}
 			
 			// Make the weapon shot always towards it
-			moveScript move = shotTransform.gameObject.GetComponent<moveScript>();
-			if (move != null)
+			moveScript move = shot.gameObject.GetComponent<moveScript>();
+
+			if (move != null && character.facingRight == true)
 			{
 				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
 			}
+			if (move != null && character.facingRight == false){
+
+				move.direction = this.transform.right * -1;
+			}
+
 		}
 	}
 	
