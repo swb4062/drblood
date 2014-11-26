@@ -3,7 +3,7 @@ using System.Collections;
 
 public class loadScene2right : MonoBehaviour {
 	
-	void OnTriggerEnter2D(Collider2D collider)
+	void OnCollisionEnter2D(Collision2D collider)
 	{
 		// If the player hits the trigger.
 		if (collider.gameObject.tag == "Player")

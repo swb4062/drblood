@@ -18,7 +18,7 @@ public class GunShoot : MonoBehaviour {
 		if (shoot && character.equipped == 5 && character.grounded && character.speed == 0)
 		{
 			WeaponScript weapon = GetComponent<WeaponScript>();
-			
+
 			if (weapon != null)
 			{
 				if(character.isAlive)

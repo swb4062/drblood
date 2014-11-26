@@ -9,13 +9,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11400000}
-  - 50: {fileID: 5000000}
   - 95: {fileID: 9500000}
-  - 61: {fileID: 6100000}
+  - 60: {fileID: 6000000}
+  - 50: {fileID: 5000000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: bomb
-  m_TagString: Untagged
+  m_Name: drBlood_upside down
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.329522729, y: 8.34545231, z: 0}
-  m_LocalScale: {x: .300000012, y: .300000012, z: 1}
+  m_LocalPosition: {x: -4.90545893, y: 9.64426327, z: 1}
+  m_LocalScale: {x: .844979644, y: .844978929, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -38,26 +38,58 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .5
-  m_GravityScale: 1
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 1
---- !u!61 &6100000
-BoxCollider2D:
+  m_CollisionDetection: 0
+--- !u!60 &6000000
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: 8be6341e1ce3f4cec9902bc34f72d20a, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2, y: 2}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: .641537607, y: -4.28263235}
+      - {x: 1.39762104, y: -4.57849121}
+      - {x: 1.52911389, y: -4.87435007}
+      - {x: 1.79209936, y: -4.84147692}
+      - {x: 1.79209936, y: -4.08539343}
+      - {x: 1.72635305, y: -4.05252028}
+      - {x: .247059271, y: -3.59229541}
+      - {x: .345678866, y: -2.21162128}
+      - {x: .181312889, y: -1.15967894}
+      - {x: .181312889, y: -.00911717489}
+      - {x: -.0487994701, y: -.00911717489}
+      - {x: -.14741905, y: -1.19255221}
+      - {x: -.509024203, y: -2.08012843}
+      - {x: -.57477057, y: -2.31024075}
+      - {x: -.410404593, y: -2.40886045}
+      - {x: -.246038631, y: -2.67184591}
+      - {x: -.410404593, y: -4.41412497}
+      - {x: -.706263363, y: -4.38125181}
+      - {x: -.804882944, y: -4.77573013}
+      - {x: -.77200973, y: -5.03871584}
+      - {x: -.903502524, y: -5.66330671}
+      - {x: -.903502524, y: -6.05778503}
+      - {x: -.837756157, y: -6.1564045}
+      - {x: -.410404593, y: -5.99203873}
+      - {x: -.0487994701, y: -6.12353134}
+      - {x: .279932469, y: -6.18927765}
+      - {x: .378552049, y: -6.35364389}
+      - {x: .510044813, y: -6.51800966}
+      - {x: .805903554, y: -6.51800966}
+      - {x: .904523134, y: -6.35364389}
+      - {x: .67441082, y: -5.1373353}
+      - {x: .510044813, y: -4.80860376}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -67,10 +99,10 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bdae0f11b6a6d8a43a25e0c6019a8cb6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6f3fc36e7cc6a984d9686f0aa1b6d860, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 1
-  m_ApplyRootMotion: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
@@ -81,18 +113,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08394838e97865049bb078d272e8a391, type: 3}
+  m_Script: {fileID: 11500000, guid: a1a72faa0847fb24298d337f801e5b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item:
-    itemName: 
-    itemID: 0
-    itemDescription: 
-    itemIcon: {fileID: 2800000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
-    itemType: 0
-  armed: 0
-  character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
-  inInventory: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -111,9 +134,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1093696345
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c6349673a2dba6d43b332f42844e140c, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 10d51e8bfc5e5f44c99ef06157450578, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

@@ -78,6 +78,8 @@
      <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\TouchPadRelativePositional.cs" />
      <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\TouchPadSwipe.cs" />
      <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\scripts\BurgerNotSafe.cs" />
+     <Compile Include="Assets\scripts\BurgerSafe.cs" />
      <Compile Include="Assets\scripts\Gun.cs" />
      <Compile Include="Assets\scripts\GunShoot.cs" />
      <Compile Include="Assets\scripts\HealthScript.cs" />
@@ -85,6 +87,7 @@
      <Compile Include="Assets\scripts\Item.cs" />
      <Compile Include="Assets\scripts\ItemDatabase.cs" />
      <Compile Include="Assets\scripts\JetPack.cs" />
+     <Compile Include="Assets\scripts\SceneFadeInOut.cs" />
      <Compile Include="Assets\scripts\ShotScript.cs" />
      <Compile Include="Assets\scripts\StartMenu.cs" />
      <Compile Include="Assets\scripts\WeaponScript.cs" />

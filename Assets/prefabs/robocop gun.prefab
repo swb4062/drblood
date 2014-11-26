@@ -143,7 +143,7 @@ MonoBehaviour:
     itemName: 
     itemID: 0
     itemDescription: 
-    itemIcon: {fileID: 0}
+    itemIcon: {fileID: 2800000, guid: 3caa32b64981cfe4ca99988e96f9f24a, type: 3}
     itemType: 0
   character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   inInventory: 0

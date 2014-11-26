@@ -22,12 +22,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 	Transform playerGraphics;							// Reference the player's graphics
 	public bool isAlive = true;							// Bool for to check if the player is alive. Used to trigger death animation
 	public Transform bombPrefab;						//bomb
+	public Transform burgerPrefab;						//burger
 	public int equipped;								//id of item equipped
 	public bool hasJetPack = false;						// Checks for a jetpack
 	public bool hasBomb = false;						// Checks for a bomb
 	public bool hasGun = false;							// Checks for a gun
 	public float speed;									// Player's movement speed
 	bool gunEquipped = false;
+	public bool hasBurger = false;						//check for burger
 
 	private Vector3 moveDirection = Vector3.zero;
 
@@ -70,6 +72,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 			hasJetPack = true;
 		}
 
+		if (equipped != 1)
+			hasJetPack = false;
+
 		if (equipped == 2 && Input.GetButtonDown ("Fire1")) {
 			bombDrop();
 		}
@@ -78,6 +83,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 			gunEquipped = true;
 			anim.SetBool("gunEquipped", gunEquipped);
 		}
+
+		if(equipped == 3 && Input.GetButtonDown ("Fire1")){
+			burgerDrop();
+		}
+
 		if (equipped != 5)
 			gunEquipped = false;
 	}
@@ -141,7 +151,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	void bombDrop(){
-		hasJetPack = false;
 		if(facingRight)
 			bombSpawn = new Vector3 (transform.position.x + 1.5f, transform.position.y, transform.position.z);
 		if(!facingRight)
@@ -152,5 +161,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 			Destroy(bombClone.gameObject, 2.2f);
 		if (hasBomb == false)
 			Destroy (bombClone.gameObject);
+	}
+
+	void burgerDrop(){
+		if(facingRight)
+			bombSpawn = new Vector3 (transform.position.x + 1.5f, transform.position.y, transform.position.z);
+		if(!facingRight)
+			bombSpawn = new Vector3 (transform.position.x - 1.5f, transform.position.y, transform.position.z);
+		Transform burgerClone = (Transform)Instantiate (burgerPrefab, bombSpawn, transform.rotation);
+		Destroy (burgerClone.gameObject, 2.0f);
 	}
 }

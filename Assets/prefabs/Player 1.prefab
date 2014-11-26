@@ -292,7 +292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b8c2d7b73210144aefcf44e507b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 11400010}
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
 --- !u!114 &11400004
@@ -351,7 +350,14 @@ MonoBehaviour:
     m_Bits: 4294966783
   grounded: 0
   isAlive: 1
+  bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+  burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  equipped: 0
   hasJetPack: 0
+  hasBomb: 0
+  hasGun: 0
+  speed: 0
+  hasBurger: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

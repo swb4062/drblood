@@ -68,8 +68,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb443c2599f80da4aa9cca0eb1ee3392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jetPackSprite: {fileID: 21300030, guid: 7724b777588c1644590eddcfd9542ee6, type: 3}
-  character: {fileID: 0}
+  character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+  inInventory: 0
+  item:
+    itemName: 
+    itemID: 0
+    itemDescription: 
+    itemIcon: {fileID: 2800000, guid: 99c29be626068e4488ff08087d4c3f34, type: 3}
+    itemType: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
