@@ -292,7 +292,14 @@ MonoBehaviour:
     m_Bits: 4294966783
   grounded: 0
   isAlive: 1
+  bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+  burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  equipped: 0
   hasJetPack: 0
+  hasBomb: 0
+  hasGun: 0
+  speed: 0
+  hasBurger: 1
 --- !u!50 &194798837
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -441,9 +448,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1093696345
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 5d0a50761011e08499e2b12d4f3c8087, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a9b11a396fd6c0a40aa2be896df473d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &199289446
 Transform:
@@ -452,7 +459,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199289444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.0699997, z: 0}
+  m_LocalPosition: {x: 6.23000002, y: -1.88, z: 10.2299995}
   m_LocalScale: {x: 3.8599999, y: 3.8599999, z: 1}
   m_Children: []
   m_Father: {fileID: 507112809}
@@ -708,7 +715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b8c2d7b73210144aefcf44e507b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 194798836}
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
 --- !u!61 &824704616

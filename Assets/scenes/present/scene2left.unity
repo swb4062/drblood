@@ -110,7 +110,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: bcfc97e284bfe664ea5c1c734796508a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcfc97e284bfe664ea5c1c734796508a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &199289446
 Transform:
@@ -1004,7 +1004,14 @@ MonoBehaviour:
     m_Bits: 4294966783
   grounded: 0
   isAlive: 1
+  bombPrefab: {fileID: 0}
+  burgerPrefab: {fileID: 0}
+  equipped: 0
   hasJetPack: 0
+  hasBomb: 0
+  hasGun: 0
+  speed: 0
+  hasBurger: 0
 --- !u!50 &1677293019
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1102,7 +1109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b8c2d7b73210144aefcf44e507b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
 --- !u!61 &1762470013

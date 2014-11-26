@@ -365,7 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   maxSpeed: 10
-  jumpForce: 800
+  jumpForce: 500
   crouchSpeed: .25
   airControl: 1
   whatIsGround:
@@ -1349,7 +1349,7 @@ Skybox:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1506028998}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 5aab239cac7fe8a4c931693a7535da5c, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: 931987be26c9646429c56f8a4692bb81, type: 2}
 --- !u!81 &1506029000
 AudioListener:
   m_ObjectHideFlags: 0
