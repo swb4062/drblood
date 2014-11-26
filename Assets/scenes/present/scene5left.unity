@@ -86,7 +86,7 @@ GameObject:
   - 114: {fileID: 90155215}
   m_Layer: 0
   m_Name: Item Database
-  m_TagString: Untagged
+  m_TagString: Item Database
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+  jetPack: {fileID: 11400000, guid: 02db174715c27ba45b28c9b1898e4a42, type: 2}
+  bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
 --- !u!212 &90155216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -138,7 +140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &109377636
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +262,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+      propertyPath: items.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
       propertyPath: m_LocalPosition.x
       value: -.0922403559
@@ -291,6 +297,20 @@ Prefab:
     - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+      propertyPath: bomb
+      value: 
+      objectReference: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c,
+        type: 2}
+    - target: {fileID: 11400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+      propertyPath: jetPack
+      value: 
+      objectReference: {fileID: 11400000, guid: 02db174715c27ba45b28c9b1898e4a42,
+        type: 2}
+    - target: {fileID: 100000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+      propertyPath: m_TagString
+      value: Item Database
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
@@ -527,8 +547,10 @@ MonoBehaviour:
     m_Bits: 4294966783
   grounded: 0
   isAlive: 1
+  bombPrefab: {fileID: 0}
   equipped: 0
   hasJetPack: 0
+  hasBomb: 0
 --- !u!4 &928091923
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +565,7 @@ Transform:
   - {fileID: 1533443816}
   - {fileID: 1401832611}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!60 &928091924
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -758,9 +780,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SlotsX: 0
   SlotsY: 0
-  skin: {fileID: 0}
+  skin: {fileID: 11400000, guid: dcff9e24321aa2145a30924879c03f8d, type: 2}
   inventory: []
-  showInventory: 0
+  showInventory: 1
 --- !u!1 &1220073305
 GameObject:
   m_ObjectHideFlags: 0

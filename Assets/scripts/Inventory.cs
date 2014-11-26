@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour {
 	public int SlotsX, SlotsY;
 	public GUISkin skin;
 	public List<Item> inventory = new List<Item> ();
-	public bool showInventory;
+	public bool showInventory = false;
 	private ItemDatabase database;
 	private bool showTooltip;
 	private string tooltip;

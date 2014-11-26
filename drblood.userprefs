@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Inventory.cs">
     <Files>
-      <File FileName="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="50" Column="36" />
+      <File FileName="Assets\scripts\ItemDatabase.cs" Line="9" Column="19" />
+      <File FileName="Assets\scripts\Inventory.cs" Line="13" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

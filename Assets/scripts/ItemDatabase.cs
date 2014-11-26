@@ -5,8 +5,9 @@ using System.Collections.Generic;
 public class ItemDatabase : MonoBehaviour {
 	public List<Item> items = new List<Item> ();
 
-	JetPack jetPack;
-	bomb bomb;
+	public JetPack jetPack;
+	public bomb bomb;
+	public Gun gun;
 
 	void Start(){
 		items.Add(new Item ("Sir Reginald", 0, "Your trustworthy martini that can lend you some advice when you most need it...or just need to get plastered.", Item.ItemType.Permanent));
@@ -17,6 +18,8 @@ public class ItemDatabase : MonoBehaviour {
 		if(jetPack.inInventory)
 			items.Add (jetPack.item);
 		if (bomb.inInventory)
-			items.Add (bomb.item);			
+			items.Add (bomb.item);
+		if (gun.inInventory)
+			items.Add (gun.item);
 	}
 }
