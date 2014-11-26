@@ -15,7 +15,7 @@ public class GunShoot : MonoBehaviour {
 		bool shoot = Input.GetButtonDown ("Fire1");
 		shoot = Input.GetButtonDown ("Fire1");
 		
-		if (shoot && character.equipped == 5)
+		if (shoot && character.equipped == 5 && character.grounded && character.speed == 0)
 		{
 			WeaponScript weapon = GetComponent<WeaponScript>();
 			

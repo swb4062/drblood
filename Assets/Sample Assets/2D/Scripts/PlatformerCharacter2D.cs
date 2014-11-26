@@ -24,7 +24,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public Transform bombPrefab;						//bomb
 	public int equipped;								//id of item equipped
 	public bool hasJetPack = false;						// Checks for a jetpack
-	public bool hasBomb = false;
+	public bool hasBomb = false;						// Checks for a bomb
+	public bool hasGun = false;							// Checks for a gun
+	public float speed;									// Player's movement speed
+	bool gunEquipped = false;
 
 	private Vector3 moveDirection = Vector3.zero;
 
@@ -70,6 +73,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (equipped == 2 && Input.GetButtonDown ("Fire1")) {
 			bombDrop();
 		}
+
+		if (equipped == 5 && grounded && speed == 0) {
+			gunEquipped = true;
+			anim.SetBool("gunEquipped", gunEquipped);
+		}
+		if (equipped != 5)
+			gunEquipped = false;
 	}
 	
 	public void Move(float move, bool crouch, bool jump)
@@ -92,9 +102,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 		{
 			// Reduce the speed if crouching by the crouchSpeed multiplier
 			move = (crouch ? move * crouchSpeed : move);
+			speed = Mathf.Abs(move);
 			
 			// The Speed animator parameter is set to the absolute value of the horizontal input.
-			anim.SetFloat("Speed", Mathf.Abs(move));
+			anim.SetFloat("Speed", speed);
 			
 			// Move the character
 			rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
