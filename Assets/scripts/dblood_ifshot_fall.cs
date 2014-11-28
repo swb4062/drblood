@@ -15,9 +15,13 @@ public class dblood_ifshot_fall : MonoBehaviour {
 	private IEnumerator FallAfterTime() {
 		yield return new WaitForSeconds (5.0f);
 		rigidbody2D.gravityScale = 10;
+		yield return new WaitForSeconds (2.0f);
+		Application.LoadLevel("scene1");
 	}
 
 	void Update(){
 		StartCoroutine(FallAfterTime());
+
 	}
+	
 }
