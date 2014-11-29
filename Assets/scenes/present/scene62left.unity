@@ -219,7 +219,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 522449930}
   - 212: {fileID: 522449929}
-  - 50: {fileID: 522449932}
   - 60: {fileID: 522449931}
   - 114: {fileID: 522449933}
   m_Layer: 0
@@ -258,8 +257,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522449928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.158536, y: 16.6000004, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 14, y: 14, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -574,21 +573,6 @@ PolygonCollider2D:
       - {x: -3.00999999, y: -1.83000004}
       - {x: -3, y: -1.87}
       - {x: -2.99000001, y: -1.87}
---- !u!50 &522449932
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522449928}
-  m_Mass: 200
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 5
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!114 &522449933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,7 +717,7 @@ MonoBehaviour:
     itemName: 
     itemID: 0
     itemDescription: 
-    itemIcon: {fileID: 0}
+    itemIcon: {fileID: 2800000, guid: 3caa32b64981cfe4ca99988e96f9f24a, type: 3}
     itemType: 0
   character: {fileID: 1684102005}
   inInventory: 0
@@ -946,6 +930,14 @@ Prefab:
       propertyPath: bombPrefab
       value: 
       objectReference: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+    - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: equipped
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: hasBurger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   m_RootGameObject: {fileID: 1684101999}
@@ -1652,7 +1644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   maxSpeed: 10
-  jumpForce: 800
+  jumpForce: 500
   crouchSpeed: .25
   airControl: 1
   whatIsGround:
@@ -1661,11 +1653,13 @@ MonoBehaviour:
   grounded: 0
   isAlive: 1
   bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+  burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
   equipped: 0
   hasJetPack: 0
   hasBomb: 0
   hasGun: 0
   speed: 0
+  hasBurger: 0
 --- !u!50 &1684102006
 Rigidbody2D:
   m_ObjectHideFlags: 0

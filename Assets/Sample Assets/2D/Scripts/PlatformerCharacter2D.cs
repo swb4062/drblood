@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class PlatformerCharacter2D : MonoBehaviour 
 {
@@ -30,6 +31,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public float speed;									// Player's movement speed
 	bool gunEquipped = false;
 	public bool hasBurger = false;						//check for burger
+	bool isCreated = false;
 
 	private Vector3 moveDirection = Vector3.zero;
 
@@ -41,11 +43,18 @@ public class PlatformerCharacter2D : MonoBehaviour
 		ceilingCheck = transform.Find("CeilingCheck");
 		anim = GetComponent<Animator>();		
 	}
+
+	private IEnumerator WaitXTime() {
+		gunEquipped = true;
+		anim.SetBool("gunEquipped", gunEquipped);
+		yield return new WaitForSeconds (0.5f);
+		gunEquipped = false;
+		anim.SetBool("gunEquipped", gunEquipped);
+	}
 	
 	
 	void Update()
 	{
-
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
 
@@ -79,9 +88,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 			bombDrop();
 		}
 
-		if (equipped == 5 && grounded && speed == 0) {
-			gunEquipped = true;
-			anim.SetBool("gunEquipped", gunEquipped);
+		if (equipped == 5 && grounded && speed == 0 && Input.GetButtonDown ("Fire1")) {
+			StartCoroutine(WaitXTime());
 		}
 
 		if(equipped == 3 && Input.GetButtonDown ("Fire1")){
@@ -155,12 +163,15 @@ public class PlatformerCharacter2D : MonoBehaviour
 			bombSpawn = new Vector3 (transform.position.x + 1.5f, transform.position.y, transform.position.z);
 		if(!facingRight)
 			bombSpawn = new Vector3 (transform.position.x - 1.5f, transform.position.y, transform.position.z);
-		Transform bombClone  = (Transform) Instantiate (bombPrefab, bombSpawn, transform.rotation);
-		bombClone.GetComponent<bomb>().armed = true;
-		if(hasBomb)
-			Destroy(bombClone.gameObject, 2.2f);
-		if (hasBomb == false)
-			Destroy (bombClone.gameObject);
+		if (!isCreated) {
+						Transform bombClone = (Transform)Instantiate (bombPrefab, bombSpawn, transform.rotation);
+						bombClone.GetComponent<bomb> ().armed = true;
+						if (hasBomb)
+								Destroy (bombClone.gameObject, 2.2f);
+						if (hasBomb == false)
+								Destroy (bombClone.gameObject);
+						isCreated = true;
+				}
 	}
 
 	void burgerDrop(){
