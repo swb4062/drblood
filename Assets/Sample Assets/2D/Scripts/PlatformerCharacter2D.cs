@@ -31,7 +31,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public float speed;									// Player's movement speed
 	bool gunEquipped = false;
 	public bool hasBurger = false;						//check for burger
-	bool isCreated = false;
 
 	private Vector3 moveDirection = Vector3.zero;
 
@@ -163,15 +162,12 @@ public class PlatformerCharacter2D : MonoBehaviour
 			bombSpawn = new Vector3 (transform.position.x + 1.5f, transform.position.y, transform.position.z);
 		if(!facingRight)
 			bombSpawn = new Vector3 (transform.position.x - 1.5f, transform.position.y, transform.position.z);
-		if (!isCreated) {
-						Transform bombClone = (Transform)Instantiate (bombPrefab, bombSpawn, transform.rotation);
-						bombClone.GetComponent<bomb> ().armed = true;
-						if (hasBomb)
-								Destroy (bombClone.gameObject, 2.2f);
-						if (hasBomb == false)
-								Destroy (bombClone.gameObject);
-						isCreated = true;
-				}
+		Transform bombClone  = (Transform) Instantiate (bombPrefab, bombSpawn, transform.rotation);
+		bombClone.GetComponent<bomb>().armed = true;
+		if(hasBomb)
+			Destroy(bombClone.gameObject, 2.2f);
+		if (hasBomb == false)
+			Destroy (bombClone.gameObject);
 	}
 
 	void burgerDrop(){
