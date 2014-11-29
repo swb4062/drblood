@@ -818,7 +818,7 @@ Prefab:
       objectReference: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
     - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: equipped
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: hasBurger
@@ -1607,10 +1607,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294966783
   grounded: 0
+  anim: {fileID: 0}
   isAlive: 1
   bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
-  equipped: 5
+  equipped: 0
   hasJetPack: 0
   hasBomb: 0
   hasGun: 0
