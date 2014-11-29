@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingRight: 1
-  maxSpeed: 10
+  maxSpeed: 5
   jumpForce: 500
   crouchSpeed: .25
   airControl: 1
@@ -654,7 +654,7 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 1796390540}
   m_GameObject: {fileID: 1019239053}
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 2
@@ -1149,7 +1149,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: equipped
@@ -1162,6 +1162,10 @@ Prefab:
     - target: {fileID: 5000000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_GravityScale
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: maxSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
