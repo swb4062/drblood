@@ -19,7 +19,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public bool grounded = false;								// Whether or not the player is grounded.
 	Transform ceilingCheck;								// A position marking where to check for ceilings
 	float ceilingRadius = .01f;							// Radius of the overlap circle to determine if the player can stand up
-	Animator anim;										// Reference to the player's animator component.
+	public Animator anim;										// Reference to the player's animator component.
 	Transform playerGraphics;							// Reference the player's graphics
 	public bool isAlive = true;							// Bool for to check if the player is alive. Used to trigger death animation
 	public Transform bombPrefab;						//bomb
@@ -78,10 +78,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 			moveDirection.y -= gravity * Time.deltaTime;
 			airControl = true;
 			hasJetPack = true;
+			jumpForce = 800;
 		}
 
-		if (equipped != 1)
+		if (equipped != 1) {
 			hasJetPack = false;
+
+		}
 
 		if (equipped == 2 && Input.GetButtonDown ("Fire1")) {
 			bombDrop();

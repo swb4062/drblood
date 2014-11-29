@@ -95,6 +95,7 @@
      <Compile Include="Assets\scripts\cheat.cs" />
      <Compile Include="Assets\scripts\controls.cs" />
      <Compile Include="Assets\scripts\dblood_ifshot_fall.cs" />
+     <Compile Include="Assets\scripts\engageSlippery.cs" />
      <Compile Include="Assets\scripts\loadGameInfo.cs" />
      <Compile Include="Assets\scripts\loadMainMenu.cs" />
      <Compile Include="Assets\scripts\loadScenes\past\loadScene0_cave_past1.cs" />
