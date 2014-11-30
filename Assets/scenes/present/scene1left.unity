@@ -108,6 +108,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &123371394
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -319,6 +320,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a59bb49f63868ab46afb5c606d6fa28c, type: 2}
+      propertyPath: TM
+      value: 
+      objectReference: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a59bb49f63868ab46afb5c606d6fa28c, type: 2}
   m_RootGameObject: {fileID: 123371392}
@@ -979,7 +985,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!50 &1398857396
 Rigidbody2D:
   m_ObjectHideFlags: 0
