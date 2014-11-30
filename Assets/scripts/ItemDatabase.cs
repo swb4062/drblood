@@ -9,6 +9,7 @@ public class ItemDatabase : MonoBehaviour {
 	public bomb bomb;
 	public Gun gun;
 	public BurgerSafe burger;
+	public timeMachine TM;
 
 	void Start(){
 		items.Add(new Item ("Sir Reginald", 0, "Your trustworthy martini that can lend you some advice when you most need it...or just need to get plastered.", Item.ItemType.Permanent));
@@ -24,5 +25,7 @@ public class ItemDatabase : MonoBehaviour {
 			items.Add (gun.item);
 		if (burger.inInventory)
 			items.Add (burger.item);
+		if (TM.inInventory)
+			items.Add (TM.item);
 	}
 }

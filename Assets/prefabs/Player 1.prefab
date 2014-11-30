@@ -359,7 +359,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1

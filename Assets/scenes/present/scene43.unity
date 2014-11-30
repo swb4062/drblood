@@ -235,6 +235,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &297774804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -311,6 +312,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 013715874c73a66458e73d694447f133, type: 2}
       propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 013715874c73a66458e73d694447f133, type: 2}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -596,6 +601,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a59bb49f63868ab46afb5c606d6fa28c, type: 2}
+      propertyPath: TM
+      value: 
+      objectReference: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a59bb49f63868ab46afb5c606d6fa28c, type: 2}
   m_RootGameObject: {fileID: 297774802}
@@ -816,7 +826,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1010556716}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Poly:
     m_Paths:
     - - {x: 3.54999995, y: -1.30999994}
@@ -849,6 +859,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a3d50c1a599c04b9ade8f0fdd36fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+    itemName: 
+    itemID: 0
+    itemDescription: 
+    itemIcon: {fileID: 0}
+    itemType: 0
+  character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+  inInventory: 0
 --- !u!82 &1010556722
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1486,7 +1504,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!50 &1704706063
 Rigidbody2D:
   m_ObjectHideFlags: 0

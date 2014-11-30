@@ -281,8 +281,8 @@ MonoBehaviour:
   grounded: 0
   anim: {fileID: 0}
   isAlive: 1
-  bombPrefab: {fileID: 0}
-  burgerPrefab: {fileID: 0}
+  bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+  burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
   equipped: 0
   hasJetPack: 0
   hasBomb: 0

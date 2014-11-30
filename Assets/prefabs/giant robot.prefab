@@ -370,6 +370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 9999
   isEnemy: 1
+  isShot: 0
+  character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
