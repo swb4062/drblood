@@ -4,12 +4,12 @@ using System.Collections;
 public class engageSlippery : MonoBehaviour {
 
 	public PlatformerCharacter2D character;
-	bool startSlippery = false;
+	bool startSlippery;
 	bool isSliding = false;
 
 	// Use this for initialization
 	void Start () {
-	
+		startSlippery = false;
 	}
 	
 	// Update is called once per frame
@@ -19,7 +19,7 @@ public class engageSlippery : MonoBehaviour {
 			isSliding = false;
 			character.anim.SetBool("isSliding", isSliding);
 		}
-		if (character.hasJetPack = false && startSlippery)
+		if (character.hasJetPack == false && startSlippery)
 			character.rigidbody2D.gravityScale = 50;
 	}
 

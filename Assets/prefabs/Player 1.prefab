@@ -49,6 +49,7 @@ GameObject:
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400004}
   - 60: {fileID: 6000000}
+  - 114: {fileID: 11400012}
   m_Layer: 9
   m_Name: Player 1
   m_TagString: Player
@@ -349,6 +350,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294966783
   grounded: 0
+  anim: {fileID: 0}
   isAlive: 1
   bombPrefab: {fileID: 400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
@@ -358,6 +360,22 @@ MonoBehaviour:
   hasGun: 0
   speed: 0
   hasBurger: 1
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad754efb1e421d48891d99513a1360e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlotsX: 0
+  SlotsY: 0
+  skin: {fileID: 11400000, guid: dcff9e24321aa2145a30924879c03f8d, type: 2}
+  inventory: []
+  showInventory: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

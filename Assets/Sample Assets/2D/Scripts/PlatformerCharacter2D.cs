@@ -83,6 +83,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		if (equipped != 1) {
 			hasJetPack = false;
+			airControl = false;
 
 		}
 
