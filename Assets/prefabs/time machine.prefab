@@ -145,6 +145,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a3d50c1a599c04b9ade8f0fdd36fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+    itemName: 
+    itemID: 0
+    itemDescription: 
+    itemIcon: {fileID: 0}
+    itemType: 0
+  character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+  inInventory: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

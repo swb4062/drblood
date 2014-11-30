@@ -31,6 +31,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public float speed;									// Player's movement speed
 	bool gunEquipped = false;
 	public bool hasBurger = false;						//check for burger
+	public bool hasTM = false;							//check for time machine
 
 	private Vector3 moveDirection = Vector3.zero;
 
@@ -101,6 +102,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		if (equipped != 5)
 			gunEquipped = false;
+
+		if (equipped == 4 && Input.GetButtonDown ("Fire1"))
+						Application.LoadLevel ("scene9");
 	}
 	
 	public void Move(float move, bool crouch, bool jump)
