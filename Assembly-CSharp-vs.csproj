@@ -80,6 +80,7 @@
      <Compile Include="Assets\Sample Assets\Cross Platform Input\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\scripts\BurgerNotSafe.cs" />
      <Compile Include="Assets\scripts\BurgerSafe.cs" />
+     <Compile Include="Assets\scripts\Executioner.cs" />
      <Compile Include="Assets\scripts\Gun.cs" />
      <Compile Include="Assets\scripts\GunShoot.cs" />
      <Compile Include="Assets\scripts\HealthScript.cs" />
