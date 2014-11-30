@@ -178,7 +178,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 3940858523
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c6349673a2dba6d43b332f42844e140c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -463,6 +463,10 @@ Prefab:
       propertyPath: character
       value: 
       objectReference: {fileID: 1169033277}
+    - target: {fileID: 21200000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 3940858523
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   m_RootGameObject: {fileID: 82204517}
@@ -564,6 +568,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 811206379}
   - 61: {fileID: 811206380}
+  - 114: {fileID: 811206383}
+  - 114: {fileID: 811206382}
   - 114: {fileID: 811206381}
   m_Layer: 0
   m_Name: loadLevelLeft
@@ -605,6 +611,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 304e146336efae341b5ed0492845c9ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &811206382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1395448067}
+  m_GameObject: {fileID: 811206378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bc50a6400b80a4186be93cc8c784a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &811206383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1395448067}
+  m_GameObject: {fileID: 811206378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e21c99ed8ff24e98f15fbe567a026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1169033272
@@ -807,6 +837,7 @@ MonoBehaviour:
   hasGun: 0
   speed: 0
   hasBurger: 0
+  hasTM: 0
 --- !u!50 &1169033278
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -911,6 +942,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &1192089458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1227,6 +1259,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1667743486}
   - 61: {fileID: 1667743487}
+  - 114: {fileID: 1667743489}
   - 114: {fileID: 1667743488}
   m_Layer: 0
   m_Name: loadLevelRight
@@ -1268,6 +1301,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5aec427140c3e48419638503e0d16a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1667743489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1395448067}
+  m_GameObject: {fileID: 1667743485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0754d13a2d9b03f4084ce93e72b07762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1724956600
@@ -1422,6 +1467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &1927331569
 BoxCollider2D:
   m_ObjectHideFlags: 0
