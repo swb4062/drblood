@@ -20,7 +20,7 @@ public class WeaponScript : MonoBehaviour
 	/// </summary>
 	public float shootingRate = 0.25f;
 
-	private PlatformerCharacter2D character;
+	public PlatformerCharacter2D character;
 
 	//--------------------------------
 	// 2 - Cooldown

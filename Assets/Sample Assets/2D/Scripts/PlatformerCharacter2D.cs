@@ -186,15 +186,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if(!facingRight)
 			bombSpawn = new Vector3 (transform.position.x - 1.5f, transform.position.y, transform.position.z);
 		Transform burgerClone = (Transform)Instantiate (burgerPrefab, bombSpawn, transform.rotation);
-		if (facingRight)
-			movement = new Vector3 (10.0f, 10.0f, 0);
-		if (!facingRight)
-			movement = new Vector3 (-10.0f, 10.0f, 0);
-
-		movement *= Time.deltaTime;
-		
-		burgerClone.transform.Translate (movement);
-
 		Destroy (burgerClone.gameObject, 2.0f);
 	}
 }

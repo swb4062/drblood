@@ -16,7 +16,7 @@ public class Executioner : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		
 		if (coll.gameObject.tag == "Burger") {
-			Destroy(gameObject, 1.0f);
+			Destroy(gameObject);
 		}
 		if (coll.gameObject.tag == "Player")
 			StartCoroutine (WaitXTime ());
