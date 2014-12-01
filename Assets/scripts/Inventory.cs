@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour {
 	static int slotPadding = 12; // Amount of space between slots
 	static int rowCount = 2; // Amount of horizontal slots
 	static int colCount = 3; // Amount of vertical slots
-	static int equipCol = 1, equipRow = 1; // Vertical and horizontal slot count for equipment (need to have enough equippedItems[] slots and itemTypes defined in Item.cs)
+	//static int equipCol = 1, equipRow = 1; // Vertical and horizontal slot count for equipment (need to have enough equippedItems[] slots and itemTypes defined in Item.cs)
 	static Rect inventorySize; // Rectangle that holds the inventory window position and size (size is generated)
 	Collision2D coll;
 	static int id;
@@ -26,7 +26,7 @@ public class Inventory : MonoBehaviour {
 	static string tooltipText; // The tooltip content
 	static bool draggingItem; // Bool to determine if an item is being dragged (generated)
 	static Item draggedItem; // The item that is currently being dragged (generated)
-	static int draggedIndex; // Stores the slot an item was dragged from
+	static int draggedIndex = 0; // Stores the slot an item was dragged from
 	// Coordinate of the click to be able to draw the sprite at the correct off-set to the mouse
 	static Vector2 dragCoord;
 	public int playerEquip;

@@ -134,6 +134,7 @@
      <Compile Include="Assets\scripts\loadScenes\present\loadScene6left.cs" />
      <Compile Include="Assets\scripts\loadScenes\present\loadScene6right.cs" />
      <Compile Include="Assets\scripts\loadScenes\present\loadScene7.cs" />
+     <Compile Include="Assets\scripts\loadScenes\present\loaddemo.cs" />
      <Compile Include="Assets\scripts\moveScript.cs" />
      <Compile Include="Assets\scripts\quit.cs" />
      <Compile Include="Assets\scripts\showCursor.cs" />
