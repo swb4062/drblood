@@ -508,6 +508,7 @@ GameObject:
   - 4: {fileID: 1792477883}
   - 212: {fileID: 1792477882}
   - 60: {fileID: 1792477884}
+  - 114: {fileID: 1792477885}
   m_Layer: 0
   m_Name: demo mode
   m_TagString: Untagged
@@ -624,6 +625,17 @@ PolygonCollider2D:
       - {x: 1.505, y: .0949999988}
       - {x: 1.53499997, y: .075000003}
       - {x: 1.51499999, y: .075000003}
+--- !u!114 &1792477885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1792477881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297f67729bdee524d82968bb19d55578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2008101559
 GameObject:
   m_ObjectHideFlags: 0

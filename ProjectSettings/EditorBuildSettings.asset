@@ -147,3 +147,5 @@ EditorBuildSettings:
     path: Assets/scenes/present/scene8.unity
   - enabled: 1
     path: Assets/scenes/present/scene9.unity
+  - enabled: 1
+    path: Assets/scenes/demo.unity
