@@ -93,6 +93,8 @@
      <Compile Include="Assets\scripts\StartMenu.cs" />
      <Compile Include="Assets\scripts\Timer.cs" />
      <Compile Include="Assets\scripts\WeaponScript.cs" />
+     <Compile Include="Assets\scripts\Worm.cs" />
+     <Compile Include="Assets\scripts\WormMovement.cs" />
      <Compile Include="Assets\scripts\bomb.cs" />
      <Compile Include="Assets\scripts\cheat.cs" />
      <Compile Include="Assets\scripts\controls.cs" />

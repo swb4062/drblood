@@ -630,6 +630,10 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 15.7449112
       objectReference: {fileID: 0}
+    - target: {fileID: 6100002, guid: f841807e6c6b3ed46be356b5994cfd57, type: 2}
+      propertyPath: m_Size.y
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f841807e6c6b3ed46be356b5994cfd57, type: 2}
   m_RootGameObject: {fileID: 2115657389}
@@ -919,30 +923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showInventory: 0
-  invKey: 105
-  toggleEquipPosition: 0
-  slotSize: 25
-  slotPadding: 10
-  rowCount: 2
-  colCount: 3
-  equipCol: 1
-  equipRow: 1
-  inventorySize:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  id: 0
-  equippedItems:
-  - itemName: 
-    itemID: -1
-    itemDescription: 
-    itemType: 0
-    itemIcon: {fileID: 0}
-    itemObject: {fileID: 0}
-  skin: {fileID: 0}
   playerEquip: 0
 --- !u!1001 &1081942029
 Prefab:
@@ -1601,7 +1581,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 1.06794786, y: 3.52713776}
+  m_Size: {x: 1.06794786, y: 20}
   m_Center: {x: -.0339736044, y: .316210151}
 --- !u!114 &1920548745
 MonoBehaviour:

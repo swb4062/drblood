@@ -274,11 +274,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_LocalScale.x
-      value: .699999988
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_LocalScale.y
-      value: .699999988
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_Material
@@ -287,6 +287,10 @@ Prefab:
     - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: equipped
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: isAlive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -492,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 1253808736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.8865032, y: .770950854, z: 0}
-  m_LocalScale: {x: .699999988, y: .699999988, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1228792300}
   - {fileID: 302293693}
@@ -744,31 +748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  showInventory: 0
-  invKey: 105
-  toggleEquipPosition: 0
-  slotSize: 25
-  slotPadding: 10
-  rowCount: 2
-  colCount: 3
-  equipCol: 1
-  equipRow: 1
-  inventorySize:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  id: 0
-  equippedItems:
-  - itemName: 
-    itemID: -1
-    itemDescription: 
-    itemType: 0
-    itemIcon: {fileID: 0}
-    itemObject: {fileID: 0}
-  skin: {fileID: 0}
   playerEquip: 0
 --- !u!1 &1313930011
 GameObject:

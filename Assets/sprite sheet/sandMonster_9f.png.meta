@@ -55,90 +55,90 @@ TextureImporter:
     - name: sandMonster_9f_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2048
-        width: 471
-        height: 1024
+        x: 60
+        y: 2144
+        width: 400
+        height: 912
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_1
       rect:
         serializedVersion: 2
-        x: 471
-        y: 2048
-        width: 471
-        height: 1024
+        x: 540
+        y: 2142
+        width: 401
+        height: 890
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_2
       rect:
         serializedVersion: 2
-        x: 942
-        y: 2048
-        width: 471
-        height: 1024
+        x: 1004
+        y: 2136
+        width: 402
+        height: 880
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_3
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 2048
-        width: 471
-        height: 1024
+        x: 1464
+        y: 2116
+        width: 401
+        height: 917
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 471
-        height: 1024
+        x: 49
+        y: 1068
+        width: 397
+        height: 945
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_5
       rect:
         serializedVersion: 2
-        x: 471
-        y: 1024
-        width: 471
-        height: 1024
+        x: 528
+        y: 1048
+        width: 394
+        height: 955
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_6
       rect:
         serializedVersion: 2
-        x: 942
-        y: 1024
-        width: 471
-        height: 1024
+        x: 996
+        y: 1045
+        width: 405
+        height: 967
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_7
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 1024
-        width: 471
-        height: 1024
+        x: 1468
+        y: 1058
+        width: 400
+        height: 962
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sandMonster_9f_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 471
-        height: 1024
+        x: 66
+        y: 23
+        width: 399
+        height: 935
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
