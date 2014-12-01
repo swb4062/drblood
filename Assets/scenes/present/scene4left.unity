@@ -110,7 +110,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1093696345
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5d0a50761011e08499e2b12d4f3c8087, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5d0a50761011e08499e2b12d4f3c8087, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &199289446
 Transform:
@@ -416,7 +416,7 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 208512489}
   m_GameObject: {fileID: 756329646}
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .5
   m_GravityScale: 1
@@ -443,7 +443,7 @@ MonoBehaviour:
     itemDescription: 
     itemType: 0
     itemIcon: {fileID: 2800000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
-    itemObject: {fileID: 0}
+    itemObject: {fileID: 756329646}
   armed: 0
   character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   inInventory: 0
@@ -468,7 +468,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 3940858523
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c6349673a2dba6d43b332f42844e140c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &756329652
 Transform:
@@ -1593,30 +1593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showInventory: 0
-  invKey: 105
-  toggleEquipPosition: 0
-  slotSize: 50
-  slotPadding: 12
-  rowCount: 2
-  colCount: 3
-  equipCol: 1
-  equipRow: 1
-  inventorySize:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  id: 0
-  equippedItems:
-  - itemName: 
-    itemID: -1
-    itemDescription: 
-    itemType: 0
-    itemIcon: {fileID: 0}
-    itemObject: {fileID: 0}
-  skin: {fileID: 0}
   playerEquip: 0
 --- !u!1 &1950189741
 GameObject:

@@ -423,7 +423,7 @@ MonoBehaviour:
   burgerPrefab: {fileID: 400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
   equipped: 0
   hasJetPack: 0
-  hasBomb: 1
+  hasBomb: 0
   hasGun: 0
   speed: 0
   hasBurger: 0
@@ -547,7 +547,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6733b17950f17f34c824a4a9ee0bb888, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 6733b17950f17f34c824a4a9ee0bb888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &199289446
 Transform:

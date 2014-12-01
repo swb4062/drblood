@@ -179,7 +179,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 456fca9d345e6174097212cb966bd2b6, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 456fca9d345e6174097212cb966bd2b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &199289446
 Transform:
@@ -942,7 +942,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1093696345
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dd42e0c4eaf191343a130ac7d1ab0a9d, type: 3}
+  m_Sprite: {fileID: 21300002, guid: dd42e0c4eaf191343a130ac7d1ab0a9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1506028998
 GameObject:
@@ -1454,29 +1454,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  showInventory: 0
-  invKey: 105
-  toggleEquipPosition: 0
-  slotSize: 25
-  slotPadding: 10
-  rowCount: 2
-  colCount: 3
-  equipCol: 1
-  equipRow: 1
-  inventorySize:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  id: 0
-  equippedItems:
-  - itemName: 
-    itemID: -1
-    itemDescription: 
-    itemType: 0
-    itemIcon: {fileID: 0}
-    itemObject: {fileID: 0}
-  skin: {fileID: 0}
   playerEquip: 0

@@ -762,7 +762,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!50 &413384325
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -827,14 +828,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 413384318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad754efb1e421d48891d99513a1360e, type: 3}
+  m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SlotsX: 0
-  SlotsY: 0
-  skin: {fileID: 11400000, guid: dcff9e24321aa2145a30924879c03f8d, type: 2}
-  inventory: []
-  showInventory: 0
+  playerEquip: 0
 --- !u!1 &507112808
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &787388290
 BoxCollider2D:
   m_ObjectHideFlags: 0
