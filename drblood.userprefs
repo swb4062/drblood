@@ -1,14 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Executioner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Inventory.cs">
     <Files>
-      <File FileName="Assets\scripts\loadScenes\past\loadScene0_cave_past1.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Executioner.cs" Line="22" Column="34" />
-      <File FileName="Assets\scripts\BurgerSafe.cs" Line="18" Column="31" />
-      <File FileName="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="189" Column="1" />
-      <File FileName="Assets\scripts\HealthScript.cs" Line="29" Column="3" />
-      <File FileName="Assets\scripts\WeaponScript.cs" Line="23" Column="8" />
-      <File FileName="Assets\scripts\moveScript.cs" Line="7" Column="47" />
+      <File FileName="Assets\scripts\Inventory.cs" Line="399" Column="33" />
+      <File FileName="Assets\scripts\Item.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ItemDatabase.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\BurgerSafe.cs" Line="14" Column="89" />
+      <File FileName="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="59" Column="42" />
+      <File FileName="Assets\scripts\Gun.cs" Line="20" Column="77" />
+      <File FileName="Assets\scripts\JetPack.cs" Line="22" Column="73" />
+      <File FileName="Assets\scripts\bomb.cs" Line="22" Column="77" />
+      <File FileName="Assets\scripts\timeMachine.cs" Line="17" Column="94" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

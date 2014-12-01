@@ -12,14 +12,14 @@ public class timeMachine : MonoBehaviour {
 	{
 
 		// If the player hits the trigger.
-		if (collider.gameObject.tag == "Player")
-		{
-			item = new Item ("Time Machine", 4, "Wouldn't it be cool to meet yourself in the future?", Item.ItemType.Permanent);
-			inInventory = true;
-			Destroy(gameObject);
-			character.hasTM = true;
+		//if (collider.gameObject.tag == "Player")
+		//{
+		//	item = new Item ("Time Machine", 4, "Wouldn't it be cool to meet yourself in the future?", Item.ItemType.Permanent);
+		//	inInventory = true;
+		//	Destroy(gameObject);
+		//	character.hasTM = true;
 
-		}
+		//}
 	}
 
 

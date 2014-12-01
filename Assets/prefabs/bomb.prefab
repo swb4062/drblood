@@ -15,7 +15,7 @@ GameObject:
   - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: bomb
-  m_TagString: Untagged
+  m_TagString: bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .5
   m_GravityScale: 1
@@ -88,8 +88,9 @@ MonoBehaviour:
     itemName: 
     itemID: 0
     itemDescription: 
-    itemIcon: {fileID: 2800000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
     itemType: 0
+    itemIcon: {fileID: 2800000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
+    itemObject: {fileID: 100000}
   armed: 0
   character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   inInventory: 0
@@ -111,9 +112,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 3940858523
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c6349673a2dba6d43b332f42844e140c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

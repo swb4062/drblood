@@ -10,12 +10,12 @@ public class BurgerSafe : MonoBehaviour {
 	
 	void OnCollisionEnter2D(Collision2D coll) {
 		
-		if (coll.gameObject.tag == "Player") {
-			item = new Item ("Hamburger", 3, "It's been on the ground! Feed it to someone else.", Item.ItemType.Permanent);
-			inInventory = true;
-			if(character.hasBurger == false)
-				GameObject.Destroy(gameObject);
-			character.hasBurger = true;
-		}
+		//if (coll.gameObject.tag == "Player") {
+		//	item = new Item ("Hamburger", 3, "It's been on the ground! Feed it to someone else.", Item.ItemType.Permanent);
+		//	inInventory = true;
+		//	if(character.hasBurger == false)
+		//		GameObject.Destroy(gameObject);
+		//	character.hasBurger = true;
+		//}
 	}
 }

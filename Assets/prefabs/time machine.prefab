@@ -15,7 +15,7 @@ GameObject:
   - 82: {fileID: 8200000}
   m_Layer: 0
   m_Name: time machine
-  m_TagString: Untagged
+  m_TagString: TM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,8 +149,9 @@ MonoBehaviour:
     itemName: 
     itemID: 0
     itemDescription: 
-    itemIcon: {fileID: 0}
     itemType: 0
+    itemIcon: {fileID: 0}
+    itemObject: {fileID: 0}
   character: {fileID: 11400010, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   inInventory: 0
 --- !u!212 &21200000

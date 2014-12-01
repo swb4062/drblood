@@ -32,9 +32,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 	bool gunEquipped = false;
 	public bool hasBurger = false;						//check for burger
 	public bool hasTM = false;							//check for time machine
-	
-	Vector3 movement;
 
+	Inventory playerInventory;
 	private Vector3 moveDirection = Vector3.zero;
 
 	
@@ -43,8 +42,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("GroundCheck");
 		ceilingCheck = transform.Find("CeilingCheck");
-		anim = GetComponent<Animator>();		
-	}
+		anim = GetComponent<Animator>();	
+		playerInventory = GameObject.Find("Player 1").GetComponent<Inventory>();	}
 
 	private IEnumerator WaitXTime() {
 		gunEquipped = true;
@@ -57,6 +56,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	
 	void Update()
 	{
+		equipped = playerInventory.playerEquip;
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
 
@@ -91,6 +91,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		}
 
 		if (equipped == 2 && Input.GetButtonDown ("Fire1")) {
+			hasBomb = true;
 			bombDrop();
 		}
 

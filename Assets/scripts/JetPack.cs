@@ -18,12 +18,12 @@ public class JetPack : MonoBehaviour {
 	// Use this for initialization
 	void OnCollisionEnter2D(Collision2D coll) {
 
-				if (coll.gameObject.tag == "Player") {
-						item = new Item ("JetPack", 1, "It's a jet pack.  Figure it out.", Item.ItemType.Permanent);
-						inInventory = true;
-						Destroy(gameObject);
-						
-				}
+			//	if (coll.gameObject.tag == "Player") {
+			//			item = new Item ("JetPack", 1, "It's a jet pack.  Figure it out.", Item.ItemType.Permanent);
+			//			inInventory = true;
+			//			Destroy(gameObject);
+			//			
+			//	}
 	}
 
 }

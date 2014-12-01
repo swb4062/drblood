@@ -196,47 +196,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2115877130}
   m_RootOrder: 0
---- !u!1001 &303674922
+--- !u!1001 &461190337
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalPosition.x
       value: -.0922403559
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalPosition.y
       value: 19.6900368
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+    - target: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
+      propertyPath: m_Name
+      value: Item Database
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
   m_RootGameObject: {fileID: 874781735}
   m_IsPrefabParent: 0
   m_IsExploded: 1
@@ -635,7 +639,7 @@ GameObject:
   - 114: {fileID: 588424613}
   m_Layer: 0
   m_Name: robocop gun
-  m_TagString: Untagged
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -647,7 +651,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1722569772}
   m_GameObject: {fileID: 588424612}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bcfea185ca22514f939df0438694847, type: 3}
   m_Name: 
@@ -656,8 +660,9 @@ MonoBehaviour:
     itemName: 
     itemID: 0
     itemDescription: 
-    itemIcon: {fileID: 2800000, guid: 3caa32b64981cfe4ca99988e96f9f24a, type: 3}
     itemType: 0
+    itemIcon: {fileID: 2800000, guid: 3caa32b64981cfe4ca99988e96f9f24a, type: 3}
+    itemObject: {fileID: 0}
   character: {fileID: 1684102005}
   inInventory: 0
 --- !u!50 &588424614
@@ -898,7 +903,16 @@ Prefab:
       propertyPath: showInventory
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11400012, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11400012, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   m_RootGameObject: {fileID: 1684101999}
   m_IsPrefabParent: 0
@@ -1071,13 +1085,13 @@ MonoBehaviour:
 --- !u!1 &874781735
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
-  m_PrefabInternal: {fileID: 303674922}
+  m_PrefabParentObject: {fileID: 100000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
+  m_PrefabInternal: {fileID: 461190337}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 874781738}
   - 212: {fileID: 874781737}
-  - 114: {fileID: 874781736}
+  - 114: {fileID: 874781739}
   m_Layer: 0
   m_Name: Item Database
   m_TagString: Item Database
@@ -1085,30 +1099,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &874781736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: d015b7df9c8368b419e79e531c3d8251,
-    type: 2}
-  m_PrefabInternal: {fileID: 303674922}
-  m_GameObject: {fileID: 874781735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cdb551fc14b6a542a75181dd4e41b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  items: []
-  jetPack: {fileID: 11400000, guid: 02db174715c27ba45b28c9b1898e4a42, type: 2}
-  bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
-  gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
-  burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
-  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &874781737
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21200000, guid: d015b7df9c8368b419e79e531c3d8251,
+  m_PrefabParentObject: {fileID: 21200000, guid: 83486c1975420e045953531bcd7c7d07,
     type: 2}
-  m_PrefabInternal: {fileID: 303674922}
+  m_PrefabInternal: {fileID: 461190337}
   m_GameObject: {fileID: 874781735}
   m_Enabled: 1
   m_CastShadows: 0
@@ -1129,8 +1125,8 @@ SpriteRenderer:
 --- !u!4 &874781738
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: d015b7df9c8368b419e79e531c3d8251, type: 2}
-  m_PrefabInternal: {fileID: 303674922}
+  m_PrefabParentObject: {fileID: 400000, guid: 83486c1975420e045953531bcd7c7d07, type: 2}
+  m_PrefabInternal: {fileID: 461190337}
   m_GameObject: {fileID: 874781735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.0922403559, y: 19.6900368, z: 0}
@@ -1138,6 +1134,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &874781739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 83486c1975420e045953531bcd7c7d07,
+    type: 2}
+  m_PrefabInternal: {fileID: 461190337}
+  m_GameObject: {fileID: 874781735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a5cfacb65549d429d947004bb47f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Martini
+    itemID: 0
+    itemDescription: Doesn't really do anything...
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: b2682ff638be3084895fdb272688e07a, type: 3}
+    itemObject: {fileID: 0}
+  - itemName: Jet Pack
+    itemID: 1
+    itemDescription: It's a jet pack.  Figure it out.
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: 99c29be626068e4488ff08087d4c3f34, type: 3}
+    itemObject: {fileID: 0}
+  - itemName: Bomb
+    itemID: 2
+    itemDescription: Blows stuff up; especially squishy things.
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: 096a0d513dfc93b4fbe0b85b8fcb5bb4, type: 3}
+    itemObject: {fileID: 0}
+  - itemName: Burger
+    itemID: 3
+    itemDescription: It's been on the ground! Feed it to someone else.
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: 7a71dbdd7b0a44246ae853b7107be43b, type: 3}
+    itemObject: {fileID: 0}
+  - itemName: Time Machine
+    itemID: 4
+    itemDescription: Wouldn't it be cool to meet yourself in the future?
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: 9bfdabe885302bb4fb76275158266bb9, type: 3}
+    itemObject: {fileID: 0}
+  - itemName: 'Gun '
+    itemID: 5
+    itemDescription: It appears to be a toy laser gun.  Pew pew!
+    itemType: 1
+    itemIcon: {fileID: 2800000, guid: 3caa32b64981cfe4ca99988e96f9f24a, type: 3}
+    itemObject: {fileID: 0}
 --- !u!1 &1005009636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1342,7 @@ GameObject:
   - 124: {fileID: 1506029001}
   - 81: {fileID: 1506029000}
   - 45: {fileID: 1506028999}
+  - 114: {fileID: 1506029005}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1377,6 +1423,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &1506029005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1506028998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541553085091df64b86736da71cefc3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1520183488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,13 +1637,13 @@ GameObject:
   - 114: {fileID: 1684102003}
   - 114: {fileID: 1684102002}
   - 60: {fileID: 1684102001}
-  - 114: {fileID: 1684102009}
+  - 114: {fileID: 1684102010}
   m_Layer: 9
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1684102000
 Transform:
@@ -1780,7 +1837,7 @@ MonoBehaviour:
   hasGun: 0
   speed: 0
   hasBurger: 0
-  hasTM: 1
+  hasTM: 0
 --- !u!50 &1684102006
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1836,23 +1893,18 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e0a3b22f3d8a3ae4b881387d59104a13, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1684102009
+--- !u!114 &1684102010
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400012, guid: 14f53f78d6cdb744385d87a087ca529f,
-    type: 2}
-  m_PrefabInternal: {fileID: 589572353}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1684101999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad754efb1e421d48891d99513a1360e, type: 3}
+  m_Script: {fileID: 11500000, guid: 97eaf1678fed5ab4aa1b8784518c7abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SlotsX: 0
-  SlotsY: 0
-  skin: {fileID: 11400000, guid: dcff9e24321aa2145a30924879c03f8d, type: 2}
-  inventory: []
-  showInventory: 0
+  playerEquip: 0
 --- !u!1 &1712261774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1923,6 +1975,14 @@ Prefab:
       propertyPath: character
       value: 
       objectReference: {fileID: 1684102005}
+    - target: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
+      propertyPath: m_TagString
+      value: Gun
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   m_RootGameObject: {fileID: 588424612}

@@ -19,11 +19,11 @@ public class bomb : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		
 		if (coll.gameObject.tag == "Player") {
-			item = new Item ("Bomb", 2, "Blows stuff up; especially squishy things.", Item.ItemType.Permanent);
+			//item = new Item ("Bomb", 2, "Blows stuff up; especially squishy things.", Item.ItemType.Permanent);
 			inInventory = true;
-			if(character.hasBomb == false)
-				GameObject.Destroy(gameObject);
-			character.hasBomb = true;
+			//if(character.hasBomb == false)
+				//GameObject.Destroy(gameObject);
+			//character.hasBomb = true;
 
 		}
 
