@@ -275,6 +275,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 540739237}
   - 61: {fileID: 540739236}
+  - 114: {fileID: 540739239}
   - 114: {fileID: 540739238}
   m_Layer: 0
   m_Name: loadLevelRight
@@ -316,6 +317,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e6b1bb885f04d458ba4bf3003e5a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &540739239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 540739235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0754d13a2d9b03f4084ce93e72b07762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1137414060
@@ -484,6 +497,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1236349405}
   - 61: {fileID: 1236349406}
+  - 114: {fileID: 1236349409}
+  - 114: {fileID: 1236349408}
   - 114: {fileID: 1236349407}
   m_Layer: 0
   m_Name: loadLevelLeft
@@ -525,6 +540,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55f8d74d8eab6494db5b4d7a92823ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1236349408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 1236349404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bc50a6400b80a4186be93cc8c784a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1236349409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 1236349404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e21c99ed8ff24e98f15fbe567a026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1322425186
@@ -942,7 +981,7 @@ Transform:
   m_PrefabInternal: {fileID: 1475502438}
   m_GameObject: {fileID: 1677293012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.9576817, y: .38473475, z: 0}
+  m_LocalPosition: {x: -18.0579872, y: .0336645544, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 313828386}
@@ -1227,6 +1266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &1762470013
 BoxCollider2D:
   m_ObjectHideFlags: 0

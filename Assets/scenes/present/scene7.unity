@@ -654,7 +654,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 783085416}
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 28.3633537, y: 20}
   m_Center: {x: 10.9141941, y: -8.77000046}
 --- !u!1 &788843529
@@ -1278,6 +1278,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &1716750895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1359,8 +1360,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1832517749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.75999999, y: 7.51000023, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: .785909653, y: 7.50999928, z: 0}
+  m_LocalScale: {x: 2.15096807, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 507112809}
   m_RootOrder: 0
@@ -1446,8 +1447,7 @@ PolygonCollider2D:
       - {x: 1.20000005, y: -4.88000011}
       - {x: 1.17999995, y: -5.11999989}
       - {x: 10.2399998, y: -5.11999989}
-      - {x: 10.2399998, y: .879999995}
-      - {x: 10.2200003, y: -.217489004}
+      - {x: 13.1636038, y: -.272752523}
 --- !u!1 &1850169539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,6 +1504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &1850169543
 BoxCollider2D:
   m_ObjectHideFlags: 0

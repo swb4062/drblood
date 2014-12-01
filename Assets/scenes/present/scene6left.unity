@@ -170,6 +170,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 172004039}
   - 61: {fileID: 172004038}
+  - 114: {fileID: 172004040}
   - 114: {fileID: 172004037}
   m_Layer: 0
   m_Name: loadLevelRight
@@ -213,6 +214,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2115877130}
   m_RootOrder: 0
+--- !u!114 &172004040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1554723573}
+  m_GameObject: {fileID: 172004036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0754d13a2d9b03f4084ce93e72b07762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &174260847
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +426,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!50 &174260853
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -477,7 +491,7 @@ Transform:
   m_GameObject: {fileID: 174260847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17.6266708, y: 1.51466835, z: 0}
-  m_LocalScale: {x: .699999988, y: .699999988, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 718906646}
   - {fileID: 495206118}
@@ -546,7 +560,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199289444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .128170907, y: 17.7000008, z: 0}
+  m_LocalPosition: {x: 0, y: 14.8999996, z: 0}
   m_LocalScale: {x: 3.9000001, y: 3.9000001, z: 1}
   m_Children: []
   m_Father: {fileID: 507112809}
@@ -642,6 +656,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 788843530}
   - 61: {fileID: 788843531}
+  - 114: {fileID: 788843534}
+  - 114: {fileID: 788843533}
   - 114: {fileID: 788843532}
   m_Layer: 0
   m_Name: loadLevelLeft
@@ -683,6 +699,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4201a53b15d29294c953d74df54c8951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &788843533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1554723573}
+  m_GameObject: {fileID: 788843529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bc50a6400b80a4186be93cc8c784a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &788843534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1554723573}
+  m_GameObject: {fileID: 788843529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e21c99ed8ff24e98f15fbe567a026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &971175545
@@ -763,6 +803,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &1193552125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -969,6 +1010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &1384984891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1028,6 +1070,14 @@ Prefab:
       propertyPath: character
       value: 
       objectReference: {fileID: 174260852}
+    - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
   m_RootGameObject: {fileID: 174260847}

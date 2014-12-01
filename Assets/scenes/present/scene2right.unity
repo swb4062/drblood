@@ -218,6 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &309567774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -401,7 +402,7 @@ Transform:
   m_PrefabInternal: {fileID: 688090725}
   m_GameObject: {fileID: 539067278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16, y: 4, z: 0}
+  m_LocalPosition: {x: 15.964859, y: 2.48892713, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 729408925}
@@ -602,7 +603,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 0
 --- !u!50 &539067286
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -667,6 +669,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 540739237}
   - 61: {fileID: 540739236}
+  - 114: {fileID: 540739239}
   - 114: {fileID: 540739238}
   m_Layer: 0
   m_Name: loadLevelRight
@@ -708,6 +711,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e6b1bb885f04d458ba4bf3003e5a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &540739239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 540739235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0754d13a2d9b03f4084ce93e72b07762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &624900130
@@ -806,11 +821,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 16
+      value: 15.964859
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.48892713
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 14f53f78d6cdb744385d87a087ca529f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1043,6 +1058,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1236349405}
   - 61: {fileID: 1236349406}
+  - 114: {fileID: 1236349409}
+  - 114: {fileID: 1236349408}
   - 114: {fileID: 1236349407}
   m_Layer: 0
   m_Name: loadLevelLeft
@@ -1084,6 +1101,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55f8d74d8eab6494db5b4d7a92823ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1236349408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 1236349404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bc50a6400b80a4186be93cc8c784a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1236349409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170535642}
+  m_GameObject: {fileID: 1236349404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e21c99ed8ff24e98f15fbe567a026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1438703144
@@ -1198,6 +1239,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &1465339451
 SpriteRenderer:
   m_ObjectHideFlags: 0
