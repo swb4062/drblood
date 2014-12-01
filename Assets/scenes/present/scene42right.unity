@@ -161,7 +161,7 @@ PolygonCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199289444}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: af1b0f2074a79ca479efedcf580fa239, type: 2}
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
@@ -233,13 +233,13 @@ PolygonCollider2D:
       - {x: -3.77999997, y: -2.6500001}
       - {x: -3.81999993, y: -2.47000003}
       - {x: -3.76999998, y: -2.31999993}
-      - {x: -3.70000005, y: -2.24000001}
-      - {x: -3.6500001, y: -2.1400001}
-      - {x: -3.63000011, y: -1.82000005}
-      - {x: -3.5999999, y: -1.72000003}
-      - {x: -3.56999993, y: -1.46000004}
-      - {x: -3.55999994, y: -1.20000005}
-      - {x: -3.67900872, y: -1.24054945}
+      - {x: -3.77035642, y: -2.22241068}
+      - {x: -3.77312374, y: -2.12241077}
+      - {x: -3.70035648, y: -1.81999993}
+      - {x: -3.68794537, y: -1.71999979}
+      - {x: -3.71071291, y: -1.46000004}
+      - {x: -3.71830177, y: -1.27035642}
+      - {x: -3.74936533, y: -1.25813854}
       - {x: -3.85049057, y: -1.26437008}
       - {x: -3.9996686, y: -1.26000738}
       - {x: -4.16442299, y: -1.28520656}
@@ -459,6 +459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 400000, guid: 7ec967912ef60cf4095266a8933072c2, type: 2}
   shootingRate: .25
+  character: {fileID: 0}
 --- !u!61 &336035705
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -754,7 +755,8 @@ MonoBehaviour:
   hasBomb: 0
   hasGun: 0
   speed: 0
-  hasBurger: 1
+  hasBurger: 0
+  hasTM: 1
 --- !u!50 &1033192538
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1159,6 +1161,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1459573163}
   - 61: {fileID: 1459573162}
+  - 114: {fileID: 1459573165}
+  - 114: {fileID: 1459573164}
   - 114: {fileID: 1459573161}
   m_Layer: 0
   m_Name: loadLevelLeft
@@ -1202,6 +1206,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 334376768}
   m_RootOrder: 1
+--- !u!114 &1459573164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1498089546}
+  m_GameObject: {fileID: 1459573160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bc50a6400b80a4186be93cc8c784a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1459573165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1498089546}
+  m_GameObject: {fileID: 1459573160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e21c99ed8ff24e98f15fbe567a026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1498089546
 Prefab:
   m_ObjectHideFlags: 0
@@ -1451,6 +1479,7 @@ MonoBehaviour:
   bomb: {fileID: 11400000, guid: 6637ee90ae2e6b5499cea0dd7f0af51c, type: 2}
   gun: {fileID: 11400000, guid: decff5734b4b88c4eba07dd065444e31, type: 2}
   burger: {fileID: 11400000, guid: 679a6eacabddc264ca4b32ebaa0b8fc8, type: 2}
+  TM: {fileID: 11400000, guid: 013715874c73a66458e73d694447f133, type: 2}
 --- !u!212 &1814264967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1495,6 +1524,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1881704418}
   - 61: {fileID: 1881704419}
+  - 114: {fileID: 1881704421}
   - 114: {fileID: 1881704420}
   m_Layer: 0
   m_Name: loadLevelUp
@@ -1510,7 +1540,7 @@ Transform:
   m_PrefabInternal: {fileID: 1498089546}
   m_GameObject: {fileID: 1881704417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.3526783, y: -1.86519051, z: 3.02631378}
+  m_LocalPosition: {x: 14.0826054, y: -1.86519051, z: 3.02631378}
   m_LocalScale: {x: 3.21301079, y: 9.03911591, z: 1}
   m_Children: []
   m_Father: {fileID: 334376768}
@@ -1536,6 +1566,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0588681a8af9f384186017921ce879b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1881704421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f841807e6c6b3ed46be356b5994cfd57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1498089546}
+  m_GameObject: {fileID: 1881704417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0754d13a2d9b03f4084ce93e72b07762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1945403489
